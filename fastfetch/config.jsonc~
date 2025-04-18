@@ -6,8 +6,8 @@
       "top": 2,
       //"left": 5
     },
-    //"width": 20,
-    //"height": 10,
+    "width": 20,
+    "height": 10,
     "source": "$HOME/.config/fastfetch/template.txt"
   },
   "display": {
