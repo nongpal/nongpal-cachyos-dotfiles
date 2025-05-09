@@ -1,0 +1,12 @@
+# set <option> <new value>
+
+set recolor true
+set default-bg rgba(0,0,0,0.7)
+set recolor-darkcolor rgba(255, 255, 255, 1)
+set recolor-lightcolor rgba(0, 0, 0, 0)
+set selection-clipboard clipboard
+
+# Mapping
+map i recolor
+map D set "first-page-column 1:1"
+map <C-d> set "first-page-column 1:2"
