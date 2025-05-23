@@ -22,7 +22,7 @@ light = ""
 cwd = { fg = "#94e2d5" }
 
 # Hovered
-hovered         = { fg = "#1e1e2e", bg = "#b4befe" }
+hovered         = { fg = "#1e1e2e", bg = "#cba6f7" }
 preview_hovered = { fg = "#1e1e2e", bg = "#cdd6f4" }
 
 # Find
@@ -44,13 +44,13 @@ tab_inactive = { fg = "#cdd6f4", bg = "#45475a" }
 tab_width    = 1
 
 # Count
-count_copied   = { fg = "white", bg = "green" }
-count_cut      = { fg = "white", bg = "red" }
-count_selected = { fg = "white", bg = "yellow" }
+count_copied   = { fg = "#1e1e2e", bg = "#a6e3a1" }
+count_cut      = { fg = "#1e1e2e", bg = "#f38ba8" }
+count_selected = { fg = "#1e1e2e", bg = "#cba6f7" }
 
 # Border
 border_symbol = "│"
-border_style  = { fg = "gray" }
+border_style  = { fg = "#7f849c" }
 
 # Highlighting
 syntect_theme = ""
@@ -61,8 +61,8 @@ syntect_theme = ""
 # : Mode {{{
 
 [mode]
-normal_main = { fg = "#1e1e2e", bg = "#b4befe", bold = true }
-normal_alt  = { fg = "#b4befe", bg = "#313244" }
+normal_main = { fg = "#1e1e2e", bg = "#cba6f7", bold = true }
+normal_alt  = { fg = "#cba6f7", bg = "#313244" }
 
 # Select mode
 select_main = { fg = "#1e1e2e", bg = "#a6a3a1", bold = true }
@@ -83,16 +83,16 @@ sep_left  = { open = "", close = "" }
 sep_right = { open = "", close = "" }
 
 # Permissions
-perm_sep   = { fg = "darkgray" }
-perm_type  = { fg = "green" }
-perm_read  = { fg = "yellow" }
-perm_write = { fg = "red" }
-perm_exec  = { fg = "cyan" }
+perm_sep   = { fg = "#7f849c" }
+perm_type  = { fg = "#89b4fa" }
+perm_read  = { fg = "#f9e2af" }
+perm_write = { fg = "#f38ba8" }
+perm_exec  = { fg = "#a6e3a1" }
 
 # Progress
-progress_label  = { bold = true }
-progress_normal = { fg = "blue", bg = "black" }
-progress_error  = { fg = "red", bg = "black" }
+progress_label  = { fg = "#ffffff", bold = true }
+progress_normal = { fg = "#89b4fa", bg = "#45475a" }
+progress_error  = { fg = "#f38ba8", bg = "#45475a" }
 
 # : }}}
 
@@ -101,12 +101,12 @@ progress_error  = { fg = "red", bg = "black" }
 
 [which]
 cols            = 3
-mask            = { bg = "black" }
-cand            = { fg = "lightcyan" }
-rest            = { fg = "darkgray" }
-desc            = { fg = "lightmagenta" }
+mask            = { bg = "#313244" }
+cand            = { fg = "#94e2d5" }
+rest            = { fg = "#9399b2" }
+desc            = { fg = "#f5c2e7" }
 separator       = "  "
-separator_style = { fg = "darkgray" }
+separator_style = { fg = "#585b70" }
 
 # : }}}
 
@@ -114,8 +114,8 @@ separator_style = { fg = "darkgray" }
 # : Confirmation {{{
 
 [confirm]
-border     = { fg = "blue" }
-title      = { fg = "blue" }
+border     = { fg = "#cba6f7" }
+title      = { fg = "#cba6f7" }
 content    = {}
 list       = {}
 btn_yes    = { reversed = true }
@@ -128,12 +128,12 @@ btn_labels = [ "  [Y]es  ", "  (N)o  " ]
 # : Spotter {{{
 
 [spot]
-border = { fg = "blue" }
-title  = { fg = "blue" }
+border = { fg = "#cba6e7" }
+title  = { fg = "#cba6e7" }
 
 # Table
 tbl_col  = { fg = "blue" }
-tbl_cell = { fg = "yellow", reversed = true }
+tbl_cell = { fg = "#cba6f7", reversed = true }
 
 # : }}}
 
@@ -141,9 +141,9 @@ tbl_cell = { fg = "yellow", reversed = true }
 # : Notification {{{
 
 [notify]
-title_info  = { fg = "green" }
-title_warn  = { fg = "yellow" }
-title_error = { fg = "red" }
+title_info  = { fg = "#94e2d5" }
+title_warn  = { fg = "#f9e2af" }
+title_error = { fg = "#f38ba8" }
 
 # Icons
 icon_info  = ""
@@ -156,8 +156,8 @@ icon_error = ""
 # : Picker {{{
 
 [pick]
-border   = { fg = "blue" }
-active   = { fg = "magenta", bold = true }
+border   = { fg = "#cba6f7" }
+active   = { fg = "#f5c2e7", bold = true }
 inactive = {}
 
 # : }}}
@@ -166,7 +166,7 @@ inactive = {}
 # : Input {{{
 
 [input]
-border   = { fg = "blue" }
+border   = { fg = "#cba6f7" }
 title    = {}
 value    = {}
 selected = { reversed = true }
@@ -177,7 +177,7 @@ selected = { reversed = true }
 # : Completion {{{
 
 [cmp]
-border   = { fg = "blue" }
+border   = { fg = "#cba6f7" }
 active   = { reversed = true }
 inactive = {}
 
@@ -192,7 +192,7 @@ icon_command = ""
 # : Task manager {{{
 
 [tasks]
-border  = { fg = "blue" }
+border  = { fg = "#cba6f7" }
 title   = {}
 hovered = { fg = "magenta", underline = true }
 

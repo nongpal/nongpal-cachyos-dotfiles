@@ -36,6 +36,7 @@ set render-loading-fg		  rgba(202,211,245,1)
 set highlight-color		      rgba(87,82,104,0.5)
 set highlight-fg              rgba(245,189,230,0.5)
 set highlight-active-color	  rgba(245,189,230,0.5)
+set selection-clipboard clipboard
 
 # Mapping
 map i recolor
